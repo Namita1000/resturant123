@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Login to order</title>
+	<link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
+	<style>
+		body{
+			font-family: Tahoma, Geneva, sans-serif;
+			color: #fff;
+			background-size: cover;
+			background: url(background.jpg);
+		}
+		.signup{
+			background: rgba(44, 62, 80, 0.7);
+			padding: 40px;
+			width: 250px;
+			height: 430px;
+			margin-top: 90px;
+			margin-left: 180px;
+			margin: 0 auto;
+		}
+		form{
+			width:240px;
+			text-align: center;
+		}
+		input{
+			width: 240px;
+			text-align: center;background: transparent;
+			border: none;
+			border-bottom: 1px solid #fff;
+			font-family: 'Play',sans-serif;
+			font-size: 16px;
+			font-weight: 200px;
+			padding: 10px 0;
+			transition: border 0.5s;
+			outline: none;
+			color: #fff;
+		}
+		input[type=button]:hover{
+			color: #fff;
+			background-color: black;
+		}
+		h2{
+			color: #000
+		}
+		::placeholder{
+			color: aliceblue;
+			opacity: 0.8; /* Firefox */
+		}
+
+	</style>
+</head>
+<body>
+	<div class="signup">
+		<form>
+			<h2 style="color: #fff;">Sign up</h2>
+			<input type="text" name ="username" placeholder="First name"><br><br>
+			<input type="text" name ="username" placeholder="Last name"><br><br>
+			<input type="password" name ="pass" placeholder="password"><br><br>
+			<input type="password" name ="pass" placeholder="Confirm password"><br><br>
+			<input type="text" placeholder="Email address"><br><br>
+			<input type="button" value="Sign up"><br><br>
+			<a href="login.html" style="text-decoration: none"> Congratulation you have sign up sucessfully!!! </a>
+		<br><br>
+			<div id = "msg"> Congratulation you have sign up sucessfully!!!</div>
+
+		</form>
+	</div>
+</body>
+</html>
